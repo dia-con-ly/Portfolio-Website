@@ -7,13 +7,24 @@ Secondary Color (Neon Green): #4feeb4;
 Secondary Color (Green): #D9FABE;
 */
 
+
+
+
+/*header*/
+header {
+  background-color: #d7dfec;
+    padding: 10px;
+     margin: 10px;
+     border-bottom: 4px solid #F5D5D9
+}
+
+
+
+
 /*body: fonts*/
 body {
-  font-family: 'Oswald', sans-serif;
-}
-body {
   background-color: #ffffff;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 16px; /* Sets the font size to 16px */
   font-weight: 300; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
