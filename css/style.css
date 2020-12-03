@@ -4,24 +4,73 @@ Primary Color (Blue Gray): #D1D9E6;
 Secondary Color (Purple): #D1A9F5;
 Secondary Color (Rose): #F5D5D9;
 Secondary Color (Neon Green): #4feeb4;
-Secondary Color (Green): #D9FABE;
+Secondary Color (Green): #5cb897;
 */
 
-
+/*Affects all elements*/
+* {
+  box-sizing: border-box;
+}
 
 
 /*header*/
 header {
   background-color: #d7dfec;
-    padding: 10px;
-     margin: 10px;
-     border-bottom: 4px solid #F5D5D9
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  padding-top: 15px;
+  -webkit-box-shadow: 0px 3px 8px 0px rgba(50, 50, 50, 0.54);/*shadow*/
+  -moz-box-shadow:    0px 3px 8px 0px rgba(50, 50, 50, 0.54);
+  box-shadow:         0px 3px 8px 0px rgba(50, 50, 50, 0.54);
+  border-bottom: 4px solid #F5D5D9
+}
+
+.logo {
+  max-width: 250px;
+}
+
+/*menu*/
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #D1A9F5;
+}
+
+nav > ul > li > a:visited.{
+  color: ##5cb897;
+	font-weight: 900
+}
+
+nav > ul > li > a:hover, a:focus {
+  color: #D1A9F5;
+  text-decoration: underline;
+}
+
+nav > ul > li > a:active.{
+  color: ##5cb897;
+	font-weight: 900;
+}
+
+/*main*/
+main{
+  padding-top: 250px;
 }
 
 
-
-
-/*body: fonts*/
+/*body*/
 body {
   background-color: #ffffff;
   font-family: 'Oswald', sans-serif;
@@ -131,3 +180,54 @@ a:active { /* selected link */
 .button.contact.active {
   font-weight: 600;
 }
+
+
+/*footer*/
+footer {
+  background-color: #eaf8df;
+  width: 100%;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: 4px solid #D1A9F5;
+}
+
+
+
+
+
+
+
+
+/* Layout styling */
+.container {
+  padding: 0px 15px;
+}
+
+/* Rows */
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+/* IDs */
+#hero {
+  display: inline-block;
+  width: 100%;
+  background-color: #d7dfec;
+  padding: 10px 15px;
+}
+
+#work
+.row {
+   padding-bottom: 25px; border-bottom: 1px solid #4a4a4a;
+ }
+
+#introduction
+.row {
+   padding-bottom: 25px; border-bottom: 1px solid #4a4a4a;
+ }
+
+ #about
+ .row {
+    padding-bottom: 25px; border-bottom: 1px solid #4a4a4a;
+  }
