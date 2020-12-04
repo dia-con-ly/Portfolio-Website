@@ -187,15 +187,15 @@ a:active { /* selected link */
 
 /*footer*/
 footer {
-  background-color: #eaf8df;
+  display: inline-block;
+  float: center;
   width: 100%;
   text-align: center;
+  background-color: #eaf8df;
   padding-top: 15px;
   padding-bottom: 15px;
   border-top: 4px solid #D1A9F5;
 }
-
-
 
 
 /* Layout styling */
