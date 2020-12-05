@@ -196,7 +196,18 @@ footer {
   padding-bottom: 15px;
   border-top: 4px solid #D1A9F5;
 }
+footer .social{
+  text-align: center;
+}
 
+footer .social > div{
+  display:inline-block;
+  padding: 0 10px;
+}
+
+footer .social h4{
+  margin-bottom: 10px;
+}
 
 /* Layout styling */
 .container {
